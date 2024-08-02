@@ -34,7 +34,7 @@ jobs:
           node-version: "20"
 
       - name: Add SSH key
-        uses: webfactory/ssh-agent@v0.5.5
+        uses: webfactory/ssh-agent@v0.5.4
         with:
           ssh-private-key: ${{ secrets.EC2_KEY }}
 
