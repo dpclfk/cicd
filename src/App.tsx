@@ -1,9 +1,11 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
-  return <div>hi</div>;
-}
+const App = (): JSX.Element => {
+  return (
+    <div>
+      <div>hi</div>
+    </div>
+  );
+};
 
 export default App;
